@@ -1,0 +1,35 @@
+# Style Sheet for customizing general matplotlib plots to improve readability and reduce 'default' look.
+# Created by Brenden pelkie, 5_26_21
+
+#AXES
+axes.titlesize : 16
+axes.labelsize : 16
+#axes.titleweight: bold
+axes.linewidth: 2
+
+figure.titlesize : 16
+#figure.titleweight : bold
+#FONT
+#font.weight: bold
+#font.family: DejaVu Sans
+
+#LEGEND
+legend.fontsize : 16
+
+#LINES
+lines.linewidth : 2
+lines.markersize : 10
+lines.color: 'cornflowerblue'
+
+#TICKS
+xtick.labelsize : 16
+ytick.labelsize : 16
+xtick.major.width: 2
+ytick.major.width: 2
+ytick.direction: in
+xtick.direction: in
+
+
+# Figure Output
+savefig.dpi : 300
+figure.dpi : 100
